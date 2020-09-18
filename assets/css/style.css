@@ -4,10 +4,26 @@
 
 .left {
   float: left;
+  background-color: cornflowerblue;
+  width: 200px;
+  padding: 100px;
+  margin: 50px;
+  text-align: center;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 25%;
 }
 
 .right {
   float: right;
+  background-color: chartreuse;
+  width: 200px;
+  padding: 100px;
+  margin: 50px;
+  text-align: center;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 25%;
 }
 
 .clear {
@@ -17,4 +33,21 @@
 #reset-container,
 h1 {
   text-align: center;
+}
+
+#reset-container {
+  color: white;
+}
+
+h2 {
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.goals {
+  font-weight: bold;
+}
+
+body {
+  background-color: olive;
 }
